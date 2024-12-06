@@ -7,3 +7,12 @@
 [submodule "algorit-inexact-lines-method"]
 	path = algorit-inexact-lines-method
 	url = https://github.com/migue-afk/search-algorithm-inexact-lines-method.git
+[submodule "fourier-serie"]
+	path = fourier-serie
+	url = https://github.com/migue-afk/Serie_de_Fourier_Ejemplo_Inicial_Onda_Triangular.git
+[submodule "digital-filter"]
+	path = digital-filter
+	url = https://github.com/migue-afk/Filtros_Digitales_MATLAB_cod.git
+[submodule "pid-applied-python"]
+	path = pid-applied-python
+	url = https://github.com/migue-afk/PID-aplicado-a-un-sistema-de-segundo-orden_Ziegler-Nichols_PYTHON.git
