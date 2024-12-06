@@ -4,3 +4,6 @@
 [submodule "analogial-pid-applied-to-a-system-of-secod-order"]
 	path = analogial-pid-applied-to-a-system-of-secod-order
 	url = https://github.com/migue-afk/PID_analogico_aplicado_a_un_sistema_de_segundo_orden_MATLAB.git
+[submodule "algorit-inexact-lines-method"]
+	path = algorit-inexact-lines-method
+	url = https://github.com/migue-afk/search-algorithm-inexact-lines-method.git
