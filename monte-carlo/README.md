@@ -316,8 +316,4 @@ $$
 
 ---
 
-## Author
-
-**Miguel Angel Mayancela**
-
 Numerical methods, mathematical modeling, simulation, and computational experiments using MATLAB and GNU Octave.
