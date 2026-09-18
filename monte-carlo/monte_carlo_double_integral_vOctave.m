@@ -35,7 +35,7 @@ zMax = max(Z(:));
 
 %% Monte Carlo experiment
 
-N = 20000;
+N = 10000;
 
 % Generate random points inside the 3D bounding box
 x = xMin + (xMax - xMin) .* rand(N,1);
