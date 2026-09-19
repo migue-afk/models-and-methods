@@ -65,7 +65,7 @@ The Monte Carlo result is compared with MATLAB's numerical `integral2` function.
 * **Red points:** accepted samples below the surface.
 * **Green points:** rejected samples above the surface.
 
-![Monte Carlo double integral](./montecarloIntegration_1.png)
+![Monte Carlo double integral](./montecarloIntegration.png)
 
 The accuracy of the approximation generally improves as the number of random samples increases.
 
