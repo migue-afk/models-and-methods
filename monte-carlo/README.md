@@ -112,7 +112,7 @@ To reduce rendering requirements, particularly when using **Octave Online**, onl
 
 ### Visualization
 
-![Monte Carlo integration in GNU Octave](./montecarloIntegration_1.png)
+![Monte Carlo integration in GNU Octave](./montecarloIntegration_Octave.png)
 
 Although both implementations perform the same numerical experiment, the visualization routines are adapted to the capabilities of MATLAB and GNU Octave.
 
