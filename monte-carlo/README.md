@@ -1,4 +1,4 @@
-# Monte Carlo Methods_
+# Monte Carlo Methods
 
 Numerical experiments using **Monte Carlo methods** for estimating double integrals and volumes under surfaces.
 
@@ -46,17 +46,13 @@ $$
 
 The estimated volume is then obtained from
 
-$$
-V_{\mathrm{MC}}
-=
-V_R\frac{N_{\mathrm{hits}}}{N},
-$$
+$$ V_{\mathrm{MC}} = V_R\frac{N_{\mathrm{hits}}}{N}, $$
 
 where:
 
-* \(V_R\) is the volume of the bounding box,
-* \(N\) is the total number of random samples,
-* \(N_{\mathrm{hits}}\) is the number of points below the surface.
+* $\(V_R\)$ is the volume of the bounding box,
+* $\(N\)$ is the total number of random samples,
+* $\(N_{\mathrm{hits}}\)$ is the number of points below the surface.
 
 The Monte Carlo result is compared with MATLAB's numerical `integral2` function.
 
@@ -167,19 +163,13 @@ The same Monte Carlo procedure is used to estimate the corresponding volume.
 
 Finally, the script calculates
 
-$$
-V_{\mathrm{approx}}
-=
-V_{\mathrm{outer}}
--
-V_{\mathrm{inner}}.
-$$
+$$ V_{\mathrm{approx}} = V_{\mathrm{outer}} - V_{\mathrm{inner}}. $$
 
 ### Visualization
 
 The generated points make the Hit-or-Miss procedure visible:
 
-* **Red points:** samples satisfying \(z\leq f(x,y)\).
+* **Red points:** samples satisfying $\(z\leq f(x,y)\)$.
 * **Green points:** samples that do not satisfy the condition.
 
 ![Monte Carlo volume estimation](./montecarlo_volume_estimation.png)
@@ -192,30 +182,17 @@ This visualization illustrates how the ratio between successful samples and the 
 
 Monte Carlo integration approximates numerical quantities using random sampling.
 
-For a Hit-or-Miss experiment, if random points are generated uniformly inside a known bounding volume \(V_R\), the unknown volume can be approximated by
+For a Hit-or-Miss experiment, if random points are generated uniformly inside a known bounding volume $\(V_R\)$, the unknown volume can be approximated by
 
-$$
-V
-\approx
-V_R
-\frac{N_c}{N},
-$$
+$$ V\approx V_R \frac{N_c}{N}, $$
 
 where
 
-$$
-N_c
-=
-\text{number of points satisfying the acceptance condition}
-$$
+$$ N_c = \text{number of points satisfying the acceptance condition} $$
 
 and
 
-$$
-N
-=
-\text{total number of generated points}.
-$$
+$$N=\text{total number of generated points}. $$
 
 Therefore,
 
