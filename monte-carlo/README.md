@@ -269,7 +269,7 @@ or opened directly in GNU Octave / Octave Online.
 
 ---
 
-# Repository Structure
+<!--# Repository Structure
 
 ```text
 monte-carlo/
@@ -283,6 +283,7 @@ monte-carlo/
 │
 └── README.md
 ```
+-->
 
 ---
 
