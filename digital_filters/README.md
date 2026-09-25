@@ -97,7 +97,3 @@ Uses ripple in both passband and stopband and generally achieves a very sharp tr
 ## Purpose
 
 This repository is intended as a practical MATLAB exercise for studying digital IIR filter design, frequency-domain analysis, and audio filtering.
-
-## License
-
-No license was included in the original project. Add a license file if you plan to distribute or reuse the project publicly.
