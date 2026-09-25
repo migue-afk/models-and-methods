@@ -5,7 +5,7 @@ MATLAB implementations of classical digital filters applied to audio signals. Th
 ## Project Structure
 
 ```text
-Digital_Filters_MATLAB/
+digital_filters/
 ├── BUTTERWORTH_FILTERS/
 │   ├── LOWPASS_FILTER_BUTTERWORTH.m
 │   ├── HIGHPASS_FILTER_BUTTERWORTH.m
