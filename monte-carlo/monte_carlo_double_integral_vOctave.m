@@ -2,7 +2,6 @@
 % Monte Carlo estimation of a double integral
 % with 3D visualization of random samples.
 
-
 clear;
 clc;
 close all;
@@ -33,9 +32,12 @@ Z = f(X,Y);
 zMin = min(Z(:));
 zMax = max(Z(:));
 
+%%===============================================================================================================
 %% Monte Carlo experiment
 
-N = 10000;
+N = 10000; 
+%%===============================================================================================================
+
 
 % Generate random points inside the 3D bounding box
 x = xMin + (xMax - xMin) .* rand(N,1);
