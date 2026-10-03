@@ -131,13 +131,23 @@ hold off;
 %% Display result
 
 
+%fprintf("\n");
+%fprintf("========================================\n");
+%fprintf(" Monte Carlo Integration\n");
+%fprintf("========================================\n");
+%fprintf("Samples: %d\n", N);
+%fprintf("Estimated Volume: %.8f\n", monteCarloIntegral);
+%fprintf("Reference Volume: %.8f\n", exactVolume);
+%fprintf("Absolute Error:   %.8f\n", absoluteError);
+%fprintf("Relative Error:   %.4f %%\n", relativeError);
+%fprintf("========================================\n");
+
 fprintf("\n");
 fprintf("========================================\n");
-fprintf(" Monte Carlo Integration\n");
+fprintf(" Monte Carlo Integración\n");
 fprintf("========================================\n");
-fprintf("Samples: %d\n", N);
-fprintf("VOLUME ESTIMADO_COPIAR ESTE VALOR: %.8f\n", monteCarloIntegral);
-fprintf("VOLUME REAL: %.8f\n", exactVolume);
+fprintf("NUMERO DE MUESTRAS: %d\n", N);
+fprintf("VOLUME ESTIMADO: %.8f\n", monteCarloIntegral);
+fprintf("VOLUME EXACTO: %.8f\n", exactVolume);
 fprintf("ERROR ABSOLUTO:   %.8f\n", absoluteError);
-fprintf("ERROR RELATIVO:   %.4f %%\n", relativeError);
 fprintf("========================================\n");
